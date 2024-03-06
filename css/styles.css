@@ -321,10 +321,6 @@ ul {
   padding-right: 0;
 }
 
-/* .team-image {
-
-} */
-
 .team-position {
   padding-top: 30px;
   padding-bottom: 30px;
@@ -374,7 +370,7 @@ ul {
   letter-spacing: 0.03em;
 }
 
-.primery {
+.primary {
   background-color: var(--bg-accent-color);
   color: var(--white-color);
 }
@@ -397,6 +393,12 @@ ul {
   display: flex;
   justify-content: center;
   margin-bottom: 50px;
+}
+.btn.primary {
+  padding: 6px 25px;
+}
+.btn.secondary {
+  padding: 6px 22px;
 }
 
 .benefits-list .item {
